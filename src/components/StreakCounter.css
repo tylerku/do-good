@@ -1,0 +1,24 @@
+.streakContainer {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vw;
+  width: 20vw;
+  margin-left: -10vw;
+  margin-top: -4.5vw;
+}
+
+.streakContainer > img {
+  height: 100%;
+  width: 50%
+}
+
+.streakContainer > .counter {
+  height: auto;
+  width: auto;
+  font-size: 6.0vh;
+}

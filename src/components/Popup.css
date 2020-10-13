@@ -1,0 +1,51 @@
+.popupContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 55vh;
+  width: 70vw;
+  margin-top: -22.5vh;
+  margin-left: -35vw;
+  background-color: white;
+  z-index: 2;
+  border-radius: 0.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em;
+  font-size: var(--do-good-text-size-large);
+}
+
+.popupContainer img{
+  height: 30vw;
+  width: 35vw;
+}
+
+.popupContainer ion-button {
+  width: 85%;
+  font-size: 75%;
+  --border-radius: 3em;
+  --box-shadow:  0px 20px 20px -15px rgba(0,0,0,0.75);
+}
+
+#popupX {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  width: 4vw;
+  height: 4vw;
+}
+
+#popupTitle {
+  font-size: 120%;
+  color: black;
+  font-weight: thin;
+}
+
+#popupBody {
+  font-size: 75%;
+  color: rgb(73, 73, 73);
+  text-align: center;
+  margin: 0.5em;
+}
