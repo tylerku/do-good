@@ -1,0 +1,21 @@
+ion-content {
+  --background: url(../static/images/background_dark.png) no-repeat center/cover fixed;
+}
+
+.taskContainer {
+  height: 4vh;
+}
+
+.titleContainer {
+  font-family: 'do-good';
+  font-size: 8vh;
+  margin: 3vh;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.flexContainerRow {
+  display: flex;
+  flex-direction: row;
+}
+

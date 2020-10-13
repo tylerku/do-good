@@ -1,0 +1,38 @@
+.taskCard {
+  background-color: #9898f33d;
+  border-radius: 0.8em;
+  height: auto;
+  padding: 1em;
+  margin: 1em;
+  justify-content: space-between;
+}
+
+.taskCardTitle {
+  font-size: var(--do-good-text-size-medium);
+  font-weight: thin;
+  color: #ffffff8c;
+}
+
+.taskCardDivider {
+  height: 1px;
+  width: 13vh;
+  background-color: #ffffff8c;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+
+.taskCardBody {
+  font-size: var(--do-good-text-size-medium);
+  font-weight: normal;
+}
+
+ion-checkbox {
+  --background: #ffffff2b;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
