@@ -29,11 +29,11 @@ export const Checkbox: React.FC<CheckboxProps> = (props: CheckboxProps) => {
       animate={props.checked ? "checked" : "unchecked"}
       transition={{duration: 0.4}}
       whileTap="pressed"
-      width="44"
-      height="44"
+      width="33"
+      height="33"
     >
       <motion.path
-        d="M7.2 13.6 C 7.2 10.065 10.065 7.2 13.6 7.2 L 30.4 7.2 C 33.934 7.2 36.8 10.065 36.8 13.6 L 36.8 30.4 C 36.8 33.934 33.934 36.8 30.4 36.8 L 13.6 36.8 C 10.065 36.8 7.2 33.934 7.2 30.4 Z"
+        d="M5.4 10.2 C 5.4 7.549 7.549 5.4 10.2 5.4 L 22.8 5.4 C 25.45 5.4 27.6 7.548 27.6 10.2 L 27.6 22.8 C 27.6 25.4505 25.4505 27.6 22.8 27.6 L 10.2 27.6 C 7.548 27.6 5.4 25.4505 5.4 22.8 Z"
         fill="transparent"
         strokeWidth="5"
         stroke="#BBFFB8"
@@ -52,7 +52,7 @@ export const Checkbox: React.FC<CheckboxProps> = (props: CheckboxProps) => {
         custom={props.checked}
       /> */}
       <motion.path
-        d="M10 16.433 L 16.432 23.237 L 27.130 10"
+        d="M7.25 10.075 L 12.075 15.777 L 20.098 5.25"
         transform="translate(2.451 4.4112) rotate(-0.2 8.890 6.434)"
         fill="transparent"
         strokeWidth="6.5"
